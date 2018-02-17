@@ -1,0 +1,52 @@
+# macOS
+## Вспомогательные системные файлы.
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Файлы кеша предпросмотра
+._*
+
+## Файлы, которые могут отображаться в корневом томе.
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Каталоги, которые могли быть созданы на удаленном AFP-ресурсе.
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode
+## Пользовательские настройки.
+xcuserdata/
+
+### Оставлено для совместимости с Xcode 8 и более ранними версиями.
+### Начиная с Xcode 9, эти файлы добавлять в .gitignore не требуется.
+*.xcscmblueprint
+*.xccheckout
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Файлы, создаваемые при сборке проекта.
+DerivedData/
+*.hmap
+*.ipa
+Spellbook.h
+Spellbook.m
+
+### dSYM
+###
+### Не включаем в .gitignore и сохраняем в репозитории файлы dSYM для символицирования сборочных артефактов.
+### Решение кажется временным, при полной интеграции с fastlane хранение артефактов в репозитории не требуется.
+
+# *.dSYM.zip
+# *.dSYM
